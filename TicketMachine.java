@@ -9,7 +9,10 @@
  * @author David J. Barnes and Michael Kolling
  * @version 2008.03.30
  */
-public class TicketMachine
+
+// error when class public Ticket Machine, runs as class TicketMachine
+public class TicketMachine 
+
 {
     // The price of a ticket from this machine.
     private Integer price;
@@ -32,7 +35,6 @@ public class TicketMachine
         total = 0;
         ticketNumber = 0;
     }
-
     /**
      * Return the price of a ticket.
      */
